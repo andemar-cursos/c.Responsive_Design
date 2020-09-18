@@ -88,6 +88,7 @@ h2{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .project-title{
@@ -103,7 +104,7 @@ h2{
 }
 
 .project-imageContainer{
-	width: 300px;
+	/*width: 300px;*/
 	height: 250px;
 }
 
@@ -117,7 +118,7 @@ h2{
 
 .project-details{
 	/*Con esto expecifico que el div tendra un valor de 500px (La caja)*/
-	width: 500px;
+	/*width: 500px;*/
 }
 
 .hero{
@@ -130,6 +131,7 @@ h2{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .hero-image{
@@ -160,6 +162,7 @@ figure{
 	  sin ningun tipo de espaciado al inicio o final*/
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .menu{
@@ -201,6 +204,7 @@ figure{
 	align-items: center;
 	justify-content: space-between;
 	padding: 0px 10px;
+	flex-wrap: wrap;
 }
 
 .footer img{
@@ -273,6 +277,7 @@ figure{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 
@@ -347,7 +352,7 @@ figure{
 
 .container{
 	/*border: 1px solid red;*/
-	width: 1000px;
+	max-width: 1000px;
 	margin: 0 auto;
 	/*Con las 4 siguientes lineas, hereda del padre "header", para no perder las
 	  caracteristicas establecidas.*/
@@ -370,10 +375,6 @@ figure{
 @media screen and (max-width: 480px){
 
 }
-@media screen and (max-width: 768px) {
-
-}
-
 
 
 
