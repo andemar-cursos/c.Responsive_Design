@@ -433,7 +433,31 @@ figure{
 		z-index: 2;
 	}
 }
+
+.burger-button{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: rgba(0, 0 , 0, 0.5);
+	display: none;
+
+	/*Centrar el contenido*/
+	line-height: 40px; /*El alto del elemento*/
+	text-align: center;
+
+	position: fixed;
+	z-index: 4;
+	left: 5px;
+	top: 5px;
+	color: white;
+}
+
 @media screen and (max-width: 767px){
+	.burger-button{
+		display: initial;
+		position: fixed;
+	}
+
 	.header{
 		display: block;
 		height: auto;
