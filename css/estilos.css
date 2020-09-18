@@ -104,8 +104,11 @@ h2{
 }
 
 .project-imageContainer{
-	/*width: 300px;*/
+	width: 50%;
 	height: 250px;
+}
+.project-imageContainer img{
+	max-width: 100%;
 }
 
 .project-description{
@@ -118,7 +121,7 @@ h2{
 
 .project-details{
 	/*Con esto expecifico que el div tendra un valor de 500px (La caja)*/
-	/*width: 500px;*/
+	width: 50%;
 }
 
 .hero{
@@ -380,23 +383,55 @@ figure{
 		display: block;
 		height: auto;
 	}
-
 	.header a{
 		display: initial;
 	}
-
 	.header ol{
 		display: block;
 	}
-
 	.header ol li{
 		height: 50px;
 		text-align: center;
 	}
+
+
+	.project {
+		display: block;
+	}
+	.project-details{
+		width: auto;
+		font-size: 16px;
+	}
+	.project-course, .project-date, .project-url{
+		margin: .4em 0;
+	}
+	.project-title{
+		font-size: 1.5em;
+		margin-bottom: .3em;
+	}
+	.project-url{
+		font-size: 1em;
+	}
+	.project-course{
+		font-size: .7em;
+	}
+	.project-date{
+		font-size: 1em;
+	}
+	.project-description{
+		font-size: .8em;
+	}
+	.project-imageContainer{
+		width: auto;
+		text-align: center;
+	}
 }
 @media screen and (max-width: 480px){
+	.project-details{
+		width: auto;
+		font-size: 12px;
 
-}
+	}
 @media screen and (max-width: 320px){
 
 }
