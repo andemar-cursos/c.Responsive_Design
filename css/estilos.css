@@ -473,6 +473,22 @@ figure{
 		text-align: center;
 	}
 
+	.menu{
+		position: fixed;
+		background: rgba(5, 111, 255, 0.8);
+		z-index: 3;
+		top: 0;
+		bottom: 0;
+		left: -100vw;
+		width: 100vw;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: .3s;
+	}
+	.menu.is-active{
+		left: 0;
+	}
 
 	.project {
 		display: block;
