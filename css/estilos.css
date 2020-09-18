@@ -353,6 +353,12 @@ figure{
 .container{
 	/*border: 1px solid red;*/
 	max-width: 1000px;
+
+	/*Con cualquiera, usa el 100% del espacio*/
+	/*width: 100%;*/
+	flex: 1;
+
+
 	margin: 0 auto;
 	/*Con las 4 siguientes lineas, hereda del padre "header", para no perder las
 	  caracteristicas establecidas.*/
@@ -369,10 +375,29 @@ figure{
 @media screen and (max-width: 1024px){
 
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
+	.header{
+		display: block;
+		height: auto;
+	}
 
+	.header a{
+		display: initial;
+	}
+
+	.header ol{
+		display: block;
+	}
+
+	.header ol li{
+		height: 50px;
+		text-align: center;
+	}
 }
 @media screen and (max-width: 480px){
+
+}
+@media screen and (max-width: 320px){
 
 }
 
